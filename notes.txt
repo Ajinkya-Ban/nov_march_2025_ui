@@ -1,0 +1,73 @@
+Introduction about CSS
+-------------------------------------
+Q. What is mean by CSS?
+------------------------------
+1. CSS stands for cascadeing Stylesheet programming language.
+2. It is used for to make the pages more attractive.
+3. CSS can be used for make the pages responsive, for this we can use media queries.
+4. By using single css file we can control all the pages.
+6. The css was developed by Hackon Lie in 1995.
+7. The first CSS version that is called CSS Level1 was introduced in 1996.
+8. The second version of css is called CSS Level2 was introduced in 1998.
+9 In 2009, the CSS version called CSS3 was launched in market.
+
+Unknown Author
+Def : CSS is the beautiparler for the html element.
+
+Q. What are the different types of CSS?
+----------------------------------------------------
+1. Internal CSS : Single page application(SPA)
+2. inline CSS : This css can be used with inside html elements.
+3. external css : This is most commonally used format. This single file control all the html pages. One   change can affect all over the pages.
+
+Note: file extension of css is .css
+
+padding: inside the space of border.
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+
+margin : outer space of border.
+
+
+selector :
+--------------
+Selector is nothing but it is a targetting element.
+
+Types of selectors:
+-----------------------
+1. id  : # unique
+2. class : .
+3. group selector
+4. tag selector : img, p, h1 to h6, <span></span>
+5. tag + class selector
+6. universal selector : *
+
+how to define variables in css?
+---------------------------------
+
+Layout desgin by using float
+By using only 10 properties
+1. width
+2. height / min-height
+3. border
+4. background-color
+5. float : right, left
+6. font-size / font-family
+7. margin / padding
+8. color
+9. text-decoration
+
+
+
+
+
+
+
+
+
+
+
+

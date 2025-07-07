@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 100px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: #198754;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Show animation */
+.box.reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
