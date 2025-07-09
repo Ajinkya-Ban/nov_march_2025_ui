@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 :root {
   --marginTop: 5px;
@@ -17,7 +19,7 @@
 .container .logo {
   width: 100%;
   height: 60px;
-  background-color: black;
+  background-color: #0d5f75;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -31,7 +33,7 @@
 .nav {
   width: 100%;
   height: 40px;
-  background-color: black;
+  background-color: #0d5f75;
   margin-top: var(--marginTop);
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -54,7 +56,7 @@
   padding: 10px;
 }
 .nav ul li a:hover {
-  background-color: lightslategray;
+  background-color: #4bbdd6;
   color: white;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -75,23 +77,25 @@
   width: 100%;
   /* min-height: 200px; */
   /* background-color: darkslategray; */
-  margin-top: var(--marginTop);
+  margin-top: 100px;
 }
 .main-box .bar {
-  width: 20%;
-  min-height: 300px;
-  background-color: lightgray;
+  width: 30%;
+  min-height: 298px;
+
   float: left;
   text-align: center;
-  line-height: 300px;
+}
+.bar img {
+  width: 100%;
 }
 .main-box .area {
-  width: 78%;
+  width: 68%;
   min-height: 300px;
-  background-color: lightgray;
+  /* background-color: lightgray; */
   float: right;
-  text-align: center;
-  line-height: 300px;
+  /* text-align: center; */
+  /* line-height: 300px; */
 }
 .clearfix::after {
   content: "";
@@ -101,11 +105,56 @@
 .footer {
   width: 100%;
   height: 60px;
-  background-color: black;
+  background-color: #0d5f75;
   margin-top: var(--marginTop);
 }
 .footer p {
   color: white;
   text-align: center;
   line-height: 60px;
+}
+.text-photo {
+  width: 100%;
+  min-height: 300px;
+}
+.text-photo .text {
+  width: 50%;
+  min-height: 300px;
+  float: left;
+}
+.text p {
+  text-align: justify;
+  padding: 15px;
+}
+.text-photo .photo {
+  width: 45%;
+  height: 300px;
+  float: right;
+}
+.photo img {
+  width: 100%;
+  height: 300px;
+}
+.photo-text {
+  width: 100%;
+  min-height: 300px;
+}
+
+.photo-text .text {
+  width: 50%;
+  min-height: 300px;
+  float: right;
+}
+.text p {
+  text-align: justify;
+  padding: 15px;
+}
+.photo-text .photo {
+  width: 45%;
+  height: 300px;
+  float: left;
+}
+.photo img {
+  width: 100%;
+  height: 300px;
 }
