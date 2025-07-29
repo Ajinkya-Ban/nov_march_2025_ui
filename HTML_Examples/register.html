@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/register.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <h2>Student College Registration</h2>
+      <form>
+        <table>
+          <tr>
+            <td class="lbl">
+              <label for="fullname">Full Name</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter fullname here"
+                autocomplete="off"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td class="lbl">
+              <label for="email">Email Address</label>
+            </td>
+            <td>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email here"
+                autocomplete="off"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td class="lbl">
+              <label for="mobile">Mobile</label>
+            </td>
+            <td>
+              <input
+                type="number"
+                id="mobile"
+                name="mobile"
+                placeholder="Enter mobile here"
+                autocomplete="off"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="lbl">
+              <label for="gender">Gender</label>
+            </td>
+            <td>
+              <input type="radio" id="male" name="gender" value="Male" />
+              <label for="male">Male</label>
+
+              <input type="radio" id="female" name="gender" value="Female" />
+              <label for="female">Female</label>
+
+              <input type="radio" id="other" name="gender" value="Other" />
+              <label for="other">Other</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="lbl">
+              <label for="birth">Birthdate</label>
+            </td>
+            <td>
+              <input type="date" id="birth" name="birth" class="cal" required />
+            </td>
+          </tr>
+
+          <tr>
+            <td class="lbl">
+              <label for="course">Course</label>
+            </td>
+            <td>
+              <select id="course" name="course" class="course">
+                <option value="">Select</option>
+                <option value="MCA">MCA</option>
+                <option value="BE">BE</option>
+                <option value="BTech">B.Tech</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="lbl">
+              <label for="doc">Documents</label>
+            </td>
+            <td>
+              <input
+                type="checkbox"
+                id="adhar"
+                name="adhar"
+                value="Adhar"
+                class="chk"
+              />
+              <label for="adhar" class="lblCheck">Adhar</label>
+
+              <input
+                type="checkbox"
+                id="pan"
+                name="pan"
+                value="Pancard"
+                class="chk"
+              />
+              <label for="pan" class="lblCheck">Pancard</label>
+
+              <input
+                type="checkbox"
+                id="10th"
+                name="10th"
+                value="10th_marksheet"
+                class="chk"
+              />
+              <label for="10th" class="lblCheck">10th Marksheet</label>
+            </td>
+          </tr>
+          <tr>
+            <td class="lbl">
+              <label for="country">Country</label>
+            </td>
+            <td>
+              <select id="country" name="country" class="course">
+                <option value="">Select</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UAE">UAE</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="lbl">
+              <label for="state">State</label>
+            </td>
+            <td>
+              <select id="state" name="state" class="course">
+                <option value="">Select</option>
+                <option value="maharashtra">Maharashtra</option>
+                <option value="up">Uttar Pradesh</option>
+                <option value="gujrat">Gujrat</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="lbl">
+              <label for="city">City</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="city"
+                name="city"
+                placeholder="Enter City here"
+                autocomplete="off"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td class="lbl">
+              <label for="add">Address</label>
+            </td>
+            <td>
+              <textarea
+                id="add"
+                name="add"
+                class="add"
+                rows="5"
+                cols="10"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="regbtn">
+                <i class="fa-solid fa-cloud-arrow-up"></i> Register
+              </button>
+              <button class="regbtn1">
+                <i class="fa-solid fa-user-xmark"></i> Clear
+              </button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

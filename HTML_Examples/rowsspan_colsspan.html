@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <style>
+      .box table,
+      th,
+      tr,
+      td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+      }
+      table {
+        width: 80%;
+        margin: 100px auto;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+          rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      }
+      table th {
+        background-color: black;
+        color: white;
+        padding: 8px;
+      }
+      table td {
+        text-align: center;
+        padding: 5px;
+      }
+      .update {
+        width: 75px;
+        /* height: 30px; */
+        display: inline-block;
+        background-color: darkolivegreen;
+        color: white;
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+      }
+      .del {
+        width: 75px;
+        /* height: 30px; */
+        display: inline-block;
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <table>
+        <tr>
+          <th rowspan="2">Profile Photo</th>
+          <th colspan="2">Student Name</th>
+          <th colspan="2">Email</th>
+          <th colspan="2">Mobile</th>
+          <th rowspan="2">City</th>
+          <th rowspan="2">Actions</th>
+        </tr>
+        <tr>
+          <td>FirstName</td>
+          <td>LastName</td>
+          <td>Primary</td>
+          <td>Secondary</td>
+          <td>Primary</td>
+          <td>Secondary</td>
+        </tr>
+        <tr>
+          <td>
+            <img src="imgs/person1.jpg" width="50px" height="50px" />
+          </td>
+          <td>Ajay</td>
+          <td>Devgan</td>
+          <td>ajay@gmail.com</td>
+          <td>ajay@gmail.com</td>
+          <td>8989898989</td>
+          <td>8989898989</td>
+          <td>Mumbai</td>
+          <td>
+            <a href="" class="update">
+              <i class="fa-solid fa-user-pen"></i> Update</a
+            >
+            <a href="" class="del">
+              <i class="fa-solid fa-trash-can"></i> Delete</a
+            >
+          </td>
+        </tr>
+
+        <!-- <tr>
+          <td>
+            <img src="imgs/person.jpg" width="50px" height="50px" />
+          </td>
+          <td>Suresh Kumar</td>
+          <td>suresh@gmail.com</td>
+          <td>8189898989</td>
+          <td>Pune</td>
+          <td>
+            <a href="" class="update">
+              <i class="fa-solid fa-user-pen"></i> Update</a
+            >
+            <a href="" class="del">
+              <i class="fa-solid fa-trash-can"></i> Delete</a
+            >
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="imgs/person1.jpg" width="50px" height="50px" />
+          </td>
+          <td>Ramesh Kumar</td>
+          <td>suresh@gmail.com</td>
+          <td>8389898989</td>
+          <td>USA</td>
+          <td>
+            <a href="" class="update">
+              <i class="fa-solid fa-user-pen"></i> Update</a
+            >
+            <a href="" class="del">
+              <i class="fa-solid fa-trash-can"></i> Delete</a
+            >
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="imgs/person.jpg" width="50px" height="50px" />
+          </td>
+          <td>Sanjay Dutta</td>
+          <td>sanjay@gmail.com</td>
+          <td>8089898989</td>
+          <td>Mumbai</td>
+
+          <td>
+            <a href="" class="update">
+              <i class="fa-solid fa-user-pen"></i> Update</a
+            >
+            <a href="" class="del">
+              <i class="fa-solid fa-trash-can"></i> Delete</a
+            >
+          </td>
+        </tr> -->
+      </table>
+    </div>
+  </body>
+</html>

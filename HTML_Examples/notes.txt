@@ -1,0 +1,25 @@
+Form Tag in html
+-------------------------
+Form tag can be used for collect the data.
+In html suppose we need to create a form than html provide us one tag that is called form tag.
+So when declare the form tag, we need to pass some attributes to form tag.
+
+Basic syntax of form declaration
+-------------------------------------
+<form action="/login">
+ design
+</form>
+
+Attributes used in form tag
+-----------------------------------
+1. action : page links or api
+2. method : Get, Post, Put, delete, patch
+    a) Get : to get the data from the database.
+    b) Post : to submit new record into database
+    c) put : to update the record
+    d) delete : delete one recored
+    e) patch : partial update.
+3. enctType : encryption type : Image upload, doc file, pdf file
+4. char-set = UTF-8
+5. name = 
+
