@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        width: 60%;
+        height: 500px;
+        /* background-color: #27391c; */
+        /* background-image: linear-gradient(145deg, #3b2f2f, #513b1c); */
+        background-image: url(./imgs/nature.jpeg);
+        background-size: cover;
+
+        margin: auto;
+        position: relative;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        border-top-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+      }
+      .text h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 55px;
+        color: white;
+        text-align: center;
+        font-weight: 100;
+      }
+      #study {
+        color: crimson;
+      }
+      #job {
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="text">
+        <h1>
+          Do <span id="study">Study</span> hard, You Can get
+          <span id="job">Job...!</span>
+        </h1>
+      </div>
+    </div>
+  </body>
+</html>

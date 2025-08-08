@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 80%;
+  min-height: 60px;
+  background-color: gray;
+  margin: auto;
+  margin-top: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.text {
+  width: 80%;
+  min-height: 60px;
+  background-color: lightgray;
+  margin: auto;
+  position: relative;
+}
+.text p {
+  padding: 10px;
+  text-align: justify;
+  line-height: 25px;
+}
+.text .jeery img {
+  position: fixed;
+  /* bottom: -100px; */
+  right: 140px;
+  /* top: 0; */
+  width: 80px;
+  height: 100px;
+  z-index: 1;
+  bottom: 0;
+}

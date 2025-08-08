@@ -12,7 +12,7 @@
 .logo-nav {
   width: 100%;
 
-  background-color: gray;
+  background-color: #5d4037;
 }
 .logo-nav .logo {
   width: 40%;
@@ -20,11 +20,47 @@
   float: left;
   padding: 10px;
 }
+.logo h1 {
+  color: white;
+}
 .logo-nav .nav {
   width: 58%;
   height: 60px;
   float: right;
   padding: 10px;
+}
+.nav ul {
+  list-style-type: none;
+  width: 100%;
+}
+.nav ul li {
+  display: inline-block;
+
+  padding: 10px;
+}
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.nav ul li:hover {
+  background-color: #8d6e63;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
 }
 .clearfix::after {
   content: "";
@@ -34,7 +70,7 @@
 .slider {
   width: 100%;
   height: 300px;
-  background-color: lightgray;
+
   margin-top: 5px;
   text-align: center;
   line-height: 300px;
@@ -42,10 +78,12 @@
 .intro {
   width: 100%;
   min-height: 120px;
-  background-color: gray;
+
   margin-top: 5px;
-  text-align: center;
-  line-height: 120px;
+}
+.intro img {
+  width: 100%;
+  height: 120px;
 }
 .mian-box {
   width: 100%;
@@ -58,6 +96,9 @@
   background-color: darkgray;
   float: left;
   margin-left: 10px;
+}
+.box img {
+  width: 100%;
 }
 .box:first-child {
   margin-left: 0;
@@ -72,8 +113,10 @@
 .footer {
   width: 100%;
   height: 60px;
-  background-color: lightgray;
+  background-color: #5d4037;
   margin-top: 5px;
   text-align: center;
   line-height: 60px;
+  color: white;
+  font-size: 18px;
 }
